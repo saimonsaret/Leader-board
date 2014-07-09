@@ -1,0 +1,58 @@
+body {
+}
+div.record {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+td.percent {
+}
+
+td.rank {
+    font-size: 40px;
+    width: 40px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+div.karma {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+div.runs {
+    margin-left: 45px;
+    margin-right: 45px;
+    width: 150px
+}
+
+div.badTest {
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-between;
+}
+
+a.name {
+    font-size: 20px;
+    margin-right: 90px;
+    color: 504F4F;
+}
+a.test {
+    margin-left: 20px;
+    color: 504F4F;
+}
+img {
+    margin-right: 20px;
+}
+progress.progressbar {
+    width: 400px;
+    height: 30px;
+}
+div.progressbarElement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
